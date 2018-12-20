@@ -1,0 +1,13 @@
+<div class="container">
+  <p class="date">{{ note.creationDate }}</p>
+  <div>
+    <i class="fas fa-times btn-delete" (click)="deleteThis()"></i>    
+    <h3 class="title" routerLink="note/{{ note.id }}">{{ note.title }}</h3>    
+    
+  </div>
+  
+  <p class="description">
+    {{ note.description }}
+  </p>
+  <div class="line-divider"></div>
+</div>

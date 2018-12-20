@@ -1,0 +1,17 @@
+<form (ngSubmit)="onSubmit(form)" #form="ngForm">
+
+
+  <div style="display: inline-block; width: 100%;">
+    <button class="btn">Save</button>
+
+  </div>
+
+  <a routerLink="/" class="return-link">Return to notes</a>
+  <div class="agenda-container">
+    <input class="title" type="text" placeholder="Title" name="title" ngModel required >
+    <div class="line-divider"></div>
+
+    <textarea name="description" id="" cols="30" rows="25" class="description" placeholder="Note description" ngModel></textarea>
+  </div>
+
+</form>

@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #F97F7F;
+}
+
+.btn {    
+    float: right;
+    width: 100px;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    background-color: #2ECC71;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.29);
+    color: white;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+    background-color: #27AC5F;
+    color: #D1D1D1;
+    cursor: pointer;
+}
+
+.agenda-container {
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.4), 0 7px 10px 0 rgba(0, 0, 0, 0.29);
+    border-radius: 25px;
+    padding: 45px;
+}
+
+.return-link {
+    text-decoration: none;
+    color: #6F6FEC;
+    font-weight: bold;
+}
+
+.return-link:hover {
+    color: #4E4EE6;
+}
+
+.hidden {
+    display: none;
+}

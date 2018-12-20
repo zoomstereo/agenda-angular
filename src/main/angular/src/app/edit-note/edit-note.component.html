@@ -1,0 +1,22 @@
+<form [formGroup]="editForm" (ngSubmit)="onUpdateSubmit()">
+
+  <div style="display: inline-block; width: 100%;">
+    <button class="btn">Save</button>
+  </div>
+
+  <a class="return-link" routerLink="/">Return to notes</a>
+
+  <div class="agenda-container">
+    <input class="title" type="text" placeholder="Title" name="title" formControlName="title"  required/>
+
+    <div class="line-divider"></div>
+
+    <textarea name="description" formControlName="description" id="" cols="30" rows="25" class="description" placeholder="Note description" >
+    </textarea>
+
+    <input type="hidden" name="id" formControlName="id" />
+    <input type="hidden" name="creationDate" formControlName="creationDate" />
+
+  </div>
+
+</form>
