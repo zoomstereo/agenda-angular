@@ -31,7 +31,7 @@ public class AgendaService {
 		return noteRepo.save(note);
 	}
 	
-	public void deleteNote(Long id) {
+	public void deleteNote(Long id) {		
 		noteRepo.deleteById(id);
 	}
 
